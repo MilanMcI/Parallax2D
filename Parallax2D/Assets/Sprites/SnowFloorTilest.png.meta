@@ -1,0 +1,1031 @@
+fileFormatVersion: 2
+guid: d428585dca004aa4ea5c7f2f419fbabf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1466491794653435217
+    second: SnowFloorTilest_0
+  - first:
+      213: 5012826586004858864
+    second: SnowFloorTilest_1
+  - first:
+      213: -4726307333733957076
+    second: SnowFloorTilest_2
+  - first:
+      213: 811841607986303331
+    second: SnowFloorTilest_3
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SnowFloorTilest_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7247b8833219540800000000000000
+      internalID: 5012826586004858864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22c6716588c86eb0800000000000000
+      internalID: -4726307333733957076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3403ce5b86766a74394db63eeb51d3d1
+      internalID: 1466491794653435217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e54eea2ed9e85e4ea18723293c10326
+      internalID: 1448885142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_20
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 57
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12e0246e419d0e4ba7cae91d8583c27
+      internalID: -1477906410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 57
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9313dcbc890f84992bcca1481912f4
+      internalID: -933689256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621e98a65300bf343888ff768c21b210
+      internalID: -1155617884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_5
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3721300dd63ba14a9a650227b5c53f3
+      internalID: -1713011476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb324397ddc503748aec907f5b0cb709
+      internalID: -1222903457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9b155ade572bc43a6375a209e365ea
+      internalID: 195386973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73db496416ccfc840a423a7723b45596
+      internalID: 1807964072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aceb954fe7222f4eb2f23ef27c19af3
+      internalID: -1795216146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a69474a1299bdb40b72626c58dbc68a
+      internalID: -1988339684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c469d1b271ac8b41aa83aebcf41e509
+      internalID: -666005502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3df97808e0e204ea6a1c09bef887bc
+      internalID: -619238838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc199642dc568c84aa203d119bf1407c
+      internalID: 1156975689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a030e907e90664c977e715e75a7076
+      internalID: 2023492382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d430b3e2b951c9b4e9e0658e32a2b90b
+      internalID: 1876630247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_16
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27df14878eb88248b2e0c8784e25346
+      internalID: -270674504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75c61a8529d8554fab2755c2219ca82
+      internalID: 911908517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_18
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8a4f180cc7bf84fa1d90c47cd82ef6
+      internalID: -1609559788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2668346176c234c86134f404dee15b
+      internalID: 410273481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_22
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a54cbdbcd46b4049be7540316ebd60e
+      internalID: -1857935915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2936156da4b3a254091b47f490fe9a75
+      internalID: 2058273657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe0833f38a816e4291554998b7843bd
+      internalID: -1267228812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_25
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b899fea91b07d3b478e3080d8d0df304
+      internalID: -27679883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56abf0d4b3787344c8e80f4b8218c4c3
+      internalID: -1007641618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff118362a70c41c4384de525b09272ab
+      internalID: -1820316939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ba2e1f9e0d7dc49ab8e507dc6b8c55
+      internalID: 196421290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7c42315de7bb94a83b1088718f826e
+      internalID: 26212969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_30
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25cd048154a747449e22b4a7f0ed621
+      internalID: -876547523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowFloorTilest_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a404ec180e0fe2749ae98130ff39424a
+      internalID: -272007544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6afb03c970455ff47947dce274a02686
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SnowFloorTilest_0: 1466491794653435217
+      SnowFloorTilest_1: 5012826586004858864
+      SnowFloorTilest_10: -1795216146
+      SnowFloorTilest_100: 751015119
+      SnowFloorTilest_101: -1098124062
+      SnowFloorTilest_102: -449378284
+      SnowFloorTilest_103: 98459064
+      SnowFloorTilest_104: 1801733731
+      SnowFloorTilest_105: 1995753793
+      SnowFloorTilest_106: -990797186
+      SnowFloorTilest_107: 1379619406
+      SnowFloorTilest_108: -1395420989
+      SnowFloorTilest_109: -1763495460
+      SnowFloorTilest_11: -666005502
+      SnowFloorTilest_110: -1520933518
+      SnowFloorTilest_111: 788230752
+      SnowFloorTilest_112: 655394641
+      SnowFloorTilest_113: -300811026
+      SnowFloorTilest_114: 177933458
+      SnowFloorTilest_115: 1315550119
+      SnowFloorTilest_116: 1565711117
+      SnowFloorTilest_117: 292567768
+      SnowFloorTilest_118: -510583666
+      SnowFloorTilest_119: 1435817616
+      SnowFloorTilest_12: -619238838
+      SnowFloorTilest_120: -1936705577
+      SnowFloorTilest_121: -1343003401
+      SnowFloorTilest_122: -634457924
+      SnowFloorTilest_1222: 894195556
+      SnowFloorTilest_123: -2048851398
+      SnowFloorTilest_127: -583192645
+      SnowFloorTilest_128: 2044422908
+      SnowFloorTilest_129: 962372564
+      SnowFloorTilest_13: 1156975689
+      SnowFloorTilest_130: -68151468
+      SnowFloorTilest_131: -1126108163
+      SnowFloorTilest_132: 1149075191
+      SnowFloorTilest_133: 1264270579
+      SnowFloorTilest_134: -2019429379
+      SnowFloorTilest_135: -1503379493
+      SnowFloorTilest_136: -990552922
+      SnowFloorTilest_137: -942951920
+      SnowFloorTilest_138: 20482600
+      SnowFloorTilest_139: -918943711
+      SnowFloorTilest_14: 2023492382
+      SnowFloorTilest_140: -1212317147
+      SnowFloorTilest_141: -657250201
+      SnowFloorTilest_142: -31905178
+      SnowFloorTilest_143: -494271591
+      SnowFloorTilest_144: 1960389367
+      SnowFloorTilest_146: -973900607
+      SnowFloorTilest_147: 222971880
+      SnowFloorTilest_148: 671091857
+      SnowFloorTilest_149: 1327479748
+      SnowFloorTilest_15: 1876630247
+      SnowFloorTilest_150: -1473776067
+      SnowFloorTilest_151: 246449335
+      SnowFloorTilest_152: -432543019
+      SnowFloorTilest_153: 368907194
+      SnowFloorTilest_154: 1075215646
+      SnowFloorTilest_155: 841958273
+      SnowFloorTilest_156: -1707269529
+      SnowFloorTilest_157: -1671307236
+      SnowFloorTilest_158: 2130202532
+      SnowFloorTilest_159: 1893590573
+      SnowFloorTilest_16: -270674504
+      SnowFloorTilest_160: -937822470
+      SnowFloorTilest_161: -1063848862
+      SnowFloorTilest_162: -830230843
+      SnowFloorTilest_163: -1132219765
+      SnowFloorTilest_164: 995177144
+      SnowFloorTilest_165: -1981574029
+      SnowFloorTilest_166: -614046934
+      SnowFloorTilest_167: 84391080
+      SnowFloorTilest_17: 911908517
+      SnowFloorTilest_170: -834120037
+      SnowFloorTilest_171: 1424526015
+      SnowFloorTilest_172: 247959190
+      SnowFloorTilest_173: -1661380719
+      SnowFloorTilest_174: 451793770
+      SnowFloorTilest_175: 416132929
+      SnowFloorTilest_176: -1806562498
+      SnowFloorTilest_177: -2095104127
+      SnowFloorTilest_178: 1532763991
+      SnowFloorTilest_179: -711687552
+      SnowFloorTilest_18: -1609559788
+      SnowFloorTilest_180: -724721487
+      SnowFloorTilest_181: 395375320
+      SnowFloorTilest_182: -1710106587
+      SnowFloorTilest_183: 1556380209
+      SnowFloorTilest_184: 738658162
+      SnowFloorTilest_185: 392087022
+      SnowFloorTilest_186: 346639272
+      SnowFloorTilest_187: -1676047005
+      SnowFloorTilest_19: 410273481
+      SnowFloorTilest_2: -1222903457
+      SnowFloorTilest_20: -1477906410
+      SnowFloorTilest_21: -933689256
+      SnowFloorTilest_22: -1857935915
+      SnowFloorTilest_23: 2058273657
+      SnowFloorTilest_24: -1267228812
+      SnowFloorTilest_25: -27679883
+      SnowFloorTilest_26: -1007641618
+      SnowFloorTilest_27: -1820316939
+      SnowFloorTilest_28: 196421290
+      SnowFloorTilest_29: 26212969
+      SnowFloorTilest_3: -4726307333733957076
+      SnowFloorTilest_30: -876547523
+      SnowFloorTilest_31: -272007544
+      SnowFloorTilest_32: -1660848513
+      SnowFloorTilest_33: 1416382888
+      SnowFloorTilest_34: 437754349
+      SnowFloorTilest_35: 1091750144
+      SnowFloorTilest_36: -630376545
+      SnowFloorTilest_37: 1570888467
+      SnowFloorTilest_38: 1934600419
+      SnowFloorTilest_39: -2049796355
+      SnowFloorTilest_4: -1155617884
+      SnowFloorTilest_40: 1078421873
+      SnowFloorTilest_41: -2050433098
+      SnowFloorTilest_42: 1088963186
+      SnowFloorTilest_43: 1898408499
+      SnowFloorTilest_44: 1976536264
+      SnowFloorTilest_45: 1664913211
+      SnowFloorTilest_46: 1169819834
+      SnowFloorTilest_47: 556572548
+      SnowFloorTilest_48: -1903693018
+      SnowFloorTilest_49: 288377418
+      SnowFloorTilest_5: -1713011476
+      SnowFloorTilest_50: 447359850
+      SnowFloorTilest_51: 1899659527
+      SnowFloorTilest_52: -94176983
+      SnowFloorTilest_53: -954077615
+      SnowFloorTilest_54: 831412840
+      SnowFloorTilest_55: 1736538936
+      SnowFloorTilest_56: 1300561745
+      SnowFloorTilest_57: 2004650325
+      SnowFloorTilest_58: -2002296810
+      SnowFloorTilest_59: 170985345
+      SnowFloorTilest_6: 1448885142
+      SnowFloorTilest_60: -690292853
+      SnowFloorTilest_61: -769724877
+      SnowFloorTilest_62: 581383405
+      SnowFloorTilest_63: 8345820
+      SnowFloorTilest_64: 1647541314
+      SnowFloorTilest_66: -305435694
+      SnowFloorTilest_67: 1854456502
+      SnowFloorTilest_68: 1674502725
+      SnowFloorTilest_69: 1589543616
+      SnowFloorTilest_7: 195386973
+      SnowFloorTilest_70: 304254985
+      SnowFloorTilest_71: 134216349
+      SnowFloorTilest_72: 1019557678
+      SnowFloorTilest_73: 629006515
+      SnowFloorTilest_74: 1744962832
+      SnowFloorTilest_75: -551751081
+      SnowFloorTilest_76: 869837869
+      SnowFloorTilest_77: 969515579
+      SnowFloorTilest_78: 1382941063
+      SnowFloorTilest_79: -1740997997
+      SnowFloorTilest_8: 1807964072
+      SnowFloorTilest_80: 1226948963
+      SnowFloorTilest_81: 832991194
+      SnowFloorTilest_83: -1814638212
+      SnowFloorTilest_84: -384340575
+      SnowFloorTilest_85: 792399685
+      SnowFloorTilest_86: 1033156452
+      SnowFloorTilest_87: -1044357355
+      SnowFloorTilest_88: -1166338101
+      SnowFloorTilest_89: 176580885
+      SnowFloorTilest_9: -1988339684
+      SnowFloorTilest_90: 320413429
+      SnowFloorTilest_91: 571129062
+      SnowFloorTilest_92: -1328060118
+      SnowFloorTilest_93: -1904119775
+      SnowFloorTilest_94: -1056423254
+      SnowFloorTilest_95: 1486548473
+      SnowFloorTilest_96: 1622255465
+      SnowFloorTilest_97: -1334474956
+      SnowFloorTilest_98: -840995834
+      SnowFloorTilest_99: -829392947
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
