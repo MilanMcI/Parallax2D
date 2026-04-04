@@ -30,6 +30,9 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 _moveInput;
     public float LastPressedJumpTime { get; private set; }
 
+    //Animator
+    [SerializeField] private Animator animator;
+
     //create empty gameobjects under char, name them accordingly and then drag into slots
     [Header("Checks")]
     [SerializeField] private Transform _groundCheckPoint;
@@ -47,6 +50,13 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         RB = GetComponent<Rigidbody2D>();
+    }
+
+    private void UpdateAnimations()
+    {
+        animator.SetFloat("xVelocity", Mathf.Abs(RB.linearVelocity.x));
+        animator.SetFloat("yVelocity", RB.linearVelocity.y);
+        animator.SetBool("isGrounded", LastOnGroundTime > 0);
     }
 
     private void Start()
@@ -152,6 +162,8 @@ public class PlayerMovement : MonoBehaviour
             WallJump(_lastWallJumpDir);
         }
         #endregion
+
+        UpdateAnimations();
 
         #region GRAVITY
         //Higher gravity if we've released the jump input or are falling
@@ -270,7 +282,7 @@ public class PlayerMovement : MonoBehaviour
     private void Turn()
     {
         Vector3 scale = transform.localScale;
-        scale.x *= -1;
+        scale.x *= -1; //turns sprite around to face opposite direction depending on a/d movement
         transform.localScale = scale;
 
         IsFacingRight = !IsFacingRight;
