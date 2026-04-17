@@ -22,7 +22,7 @@ public void TakeDamage(int damage)
 
     void Die()
     {
-        Debug.Log(gameObject.name + " died!");
-        Destroy(gameObject);
+        //Debug.Log(gameObject.name + " died!");
+        //Destroy(gameObject);
     }
 }
