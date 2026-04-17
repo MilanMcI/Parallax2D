@@ -126,16 +126,20 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 97
-        width: 96
-        height: 95
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: -5, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 7}
+        - {x: -5, y: 7}
+      tessellationDetail: 0
       bones: []
       spriteID: e283b0fd55487ffe0800000000000000
       internalID: -1155309275048101842
@@ -147,17 +151,21 @@ TextureImporter:
       name: SnowTileSet_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 128
-        height: 96
+        x: 16
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 7}
+        - {x: -8, y: 7}
+      tessellationDetail: 0
       bones: []
       spriteID: 44e6b685b3cfeffb0800000000000000
       internalID: -4611971636564103612
@@ -169,17 +177,21 @@ TextureImporter:
       name: SnowTileSet_2
       rect:
         serializedVersion: 2
-        x: 96
-        y: 97
-        width: 96
-        height: 95
+        x: 32
+        y: 176
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: -16, y: -8}
+        - {x: 16, y: -8}
+        - {x: 16, y: 7}
+        - {x: -16, y: 7}
+      tessellationDetail: 0
       bones: []
       spriteID: 01e7655533949bad0800000000000000
       internalID: -2686035217925898736
@@ -191,20 +203,474 @@ TextureImporter:
       name: SnowTileSet_3
       rect:
         serializedVersion: 2
-        x: 127
-        y: 0
-        width: 161
-        height: 192
+        x: 80
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: 7}
+        - {x: -8, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf697e169ed812590800000000000000
+      internalID: -7700717854317373700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowTileSet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -5, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+        - {x: -5, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78505db7170f35a4eb4be08e04e0ca87
+      internalID: 1246673580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowTileSet_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: 8}
+        - {x: -8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ccf0323f7c2cbc4d98d7f41273d2b20
+      internalID: -371991161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowTileSet_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -16}
+        - {x: 5, y: -16}
+        - {x: 5, y: 16}
+        - {x: -8, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455b87f193df2f344988f5dd98266713
+      internalID: 1941358816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowTileSet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -5, y: -24}
+        - {x: 8, y: -24}
+        - {x: 8, y: 24}
+        - {x: -5, y: 24}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2057946ab5745d948bdec0ae356ccb1c
+      internalID: 958633250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowTileSet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -5, y: -5}
+        - {x: 8, y: -5}
+        - {x: 8, y: 8}
+        - {x: -5, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7790ca31a32694fa3c78f9556a38dd
+      internalID: 299490707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowTileSet_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -5}
+        - {x: 5, y: -5}
+        - {x: 5, y: 8}
+        - {x: -8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737d66ea700cdaf4bbefadf654a833dc
+      internalID: -62937858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowTileSet_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -5}
+        - {x: 8, y: -5}
+        - {x: 8, y: 8}
+        - {x: -8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c623baa41b7ec49af36e357b2857a7
+      internalID: 64792996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowTileSet_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -5}
+        - {x: 16, y: -5}
+        - {x: 16, y: 8}
+        - {x: -16, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6869851d5f6264181b8cb37466f1a8
+      internalID: 1234498621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowTileSet_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cf697e169ed812590800000000000000
-      internalID: -7700717854317373700
+      spriteID: d1488c7d4b9e00f41b3791f77a416fc6
+      internalID: 634811743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowTileSet_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccea29c54868be34e9f0e156a7cf2f2d
+      internalID: -557864108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowTileSet_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484db429a8723c64f82801b00d37ea49
+      internalID: -1357354811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowTileSet_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bdba8f8ad9a49458400d1d180c897e
+      internalID: -359752161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowTileSet_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894f26a902091f54c92e512e172eca0a
+      internalID: -1732181595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowTileSet_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d8248480e6e004f8e7a186f00ba333
+      internalID: 1548989562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowTileSet_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e28102d0ec0fe946bd2d7cb609afec3
+      internalID: 1092333715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowTileSet_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4355d513e5fad2b4bb29429d07ea7f3b
+      internalID: -356511099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowTileSet_20
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d476600e1a5cd9948893c3689ce644c6
+      internalID: -764510487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowTileSet_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e9269eb3c9dd34b9801ab6f287cd74
+      internalID: -139193027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowTileSet_22
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 57
+        width: 64
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0854c3778ec03154fa0bf5903f80d049
+      internalID: -2114572600
       vertices: []
       indices: 
       edges: []
@@ -213,7 +679,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 34a05f269df9e974eadf79c7f36d6665
     internalID: 0
     vertices: []
     indices: 
@@ -221,12 +687,198 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       SnowTileSet_0: -1155309275048101842
       SnowTileSet_1: -4611971636564103612
+      SnowTileSet_10: 64792996
+      SnowTileSet_100: -683404639
+      SnowTileSet_101: -794880300
+      SnowTileSet_102: 964238993
+      SnowTileSet_103: 1389060510
+      SnowTileSet_104: 1455986669
+      SnowTileSet_105: 1622660441
+      SnowTileSet_106: -2103362563
+      SnowTileSet_107: 2039826883
+      SnowTileSet_108: 125269232
+      SnowTileSet_109: -1293146045
+      SnowTileSet_11: 1234498621
+      SnowTileSet_110: 784317019
+      SnowTileSet_111: 143594513
+      SnowTileSet_112: -514647606
+      SnowTileSet_113: -1943461777
+      SnowTileSet_114: -1404143244
+      SnowTileSet_115: -842088846
+      SnowTileSet_116: -15155211
+      SnowTileSet_117: -68490198
+      SnowTileSet_118: -1612957830
+      SnowTileSet_119: 643995309
+      SnowTileSet_12: 634811743
+      SnowTileSet_120: 90802618
+      SnowTileSet_121: -47146658
+      SnowTileSet_122: 908067505
+      SnowTileSet_123: -2107015119
+      SnowTileSet_124: -578735587
+      SnowTileSet_125: 313450341
+      SnowTileSet_126: -1660960686
+      SnowTileSet_127: 770879192
+      SnowTileSet_128: -1275941884
+      SnowTileSet_129: -322509135
+      SnowTileSet_13: -557864108
+      SnowTileSet_130: 945703793
+      SnowTileSet_131: 1493111304
+      SnowTileSet_132: 1887186798
+      SnowTileSet_133: -637130917
+      SnowTileSet_134: 1984402675
+      SnowTileSet_135: 441863446
+      SnowTileSet_136: -8874830
+      SnowTileSet_137: 547360894
+      SnowTileSet_138: -220577376
+      SnowTileSet_139: 773296725
+      SnowTileSet_14: -1357354811
+      SnowTileSet_140: 544467287
+      SnowTileSet_141: 1129191231
+      SnowTileSet_142: -1309749160
+      SnowTileSet_143: -171023431
+      SnowTileSet_144: -172197485
+      SnowTileSet_145: -1345726377
+      SnowTileSet_146: -568447531
+      SnowTileSet_147: -1890908510
+      SnowTileSet_148: 112297418
+      SnowTileSet_149: -1109774515
+      SnowTileSet_15: -359752161
+      SnowTileSet_150: 2045705326
+      SnowTileSet_151: 648486917
+      SnowTileSet_152: -1217320941
+      SnowTileSet_153: 6807385
+      SnowTileSet_154: -1426424645
+      SnowTileSet_155: -1481291187
+      SnowTileSet_156: -601967315
+      SnowTileSet_157: -138771534
+      SnowTileSet_158: -2049965752
+      SnowTileSet_159: -358171000
+      SnowTileSet_16: -1732181595
+      SnowTileSet_160: -1819631085
+      SnowTileSet_161: -829808667
+      SnowTileSet_162: -1887552785
+      SnowTileSet_163: 832158651
+      SnowTileSet_164: -1785849047
+      SnowTileSet_165: 917867411
+      SnowTileSet_166: 973905805
+      SnowTileSet_167: 479440244
+      SnowTileSet_168: -1002452023
+      SnowTileSet_169: 1746423929
+      SnowTileSet_17: 1548989562
+      SnowTileSet_170: -2013028009
+      SnowTileSet_171: -1570859442
+      SnowTileSet_172: -95658777
+      SnowTileSet_173: 859314188
+      SnowTileSet_174: -580501293
+      SnowTileSet_175: -1157866814
+      SnowTileSet_176: 1299557530
+      SnowTileSet_177: -1424500641
+      SnowTileSet_178: 1578894904
+      SnowTileSet_179: -1550986088
+      SnowTileSet_18: 1092333715
+      SnowTileSet_180: 1599366108
+      SnowTileSet_181: -1772807963
+      SnowTileSet_182: 2114304034
+      SnowTileSet_183: -776627405
+      SnowTileSet_184: 1946894694
+      SnowTileSet_185: -1502805778
+      SnowTileSet_186: 1673967426
+      SnowTileSet_187: -2079922914
+      SnowTileSet_19: -356511099
       SnowTileSet_2: -2686035217925898736
+      SnowTileSet_20: -764510487
+      SnowTileSet_21: -139193027
+      SnowTileSet_22: -2114572600
+      SnowTileSet_23: 1500890107
+      SnowTileSet_24: -1605416267
+      SnowTileSet_25: 1709073150
+      SnowTileSet_26: 331147996
+      SnowTileSet_27: 208369555
+      SnowTileSet_28: 1999735562
+      SnowTileSet_29: 710740323
       SnowTileSet_3: -7700717854317373700
+      SnowTileSet_30: -772823684
+      SnowTileSet_31: 127599871
+      SnowTileSet_32: 783898454
+      SnowTileSet_33: -898349125
+      SnowTileSet_34: -77347889
+      SnowTileSet_35: -1838979256
+      SnowTileSet_36: 430141090
+      SnowTileSet_37: -1893878594
+      SnowTileSet_38: -1767476969
+      SnowTileSet_39: 1767637158
+      SnowTileSet_4: 1246673580
+      SnowTileSet_40: 2085394485
+      SnowTileSet_41: -304228546
+      SnowTileSet_42: -1011720877
+      SnowTileSet_43: -843847653
+      SnowTileSet_44: -512544352
+      SnowTileSet_45: -1210345357
+      SnowTileSet_46: -1367083535
+      SnowTileSet_47: -1623408627
+      SnowTileSet_48: -606098945
+      SnowTileSet_49: 1933315958
+      SnowTileSet_5: -371991161
+      SnowTileSet_50: 2036935855
+      SnowTileSet_51: -98820581
+      SnowTileSet_52: -637355228
+      SnowTileSet_53: 833510600
+      SnowTileSet_54: -1180200923
+      SnowTileSet_55: -266291810
+      SnowTileSet_56: 80423371
+      SnowTileSet_57: -731088022
+      SnowTileSet_58: -516510039
+      SnowTileSet_59: 1912220344
+      SnowTileSet_6: 1941358816
+      SnowTileSet_60: -667548776
+      SnowTileSet_61: -432290516
+      SnowTileSet_62: -1254596898
+      SnowTileSet_63: 97136724
+      SnowTileSet_64: -937602520
+      SnowTileSet_65: 707551212
+      SnowTileSet_66: -1391433740
+      SnowTileSet_67: 1227093146
+      SnowTileSet_68: -331044382
+      SnowTileSet_69: 1997302747
+      SnowTileSet_7: 958633250
+      SnowTileSet_70: 519091000
+      SnowTileSet_71: -2003298227
+      SnowTileSet_72: 1286598527
+      SnowTileSet_73: -1938494264
+      SnowTileSet_74: 694352730
+      SnowTileSet_75: -1941313714
+      SnowTileSet_76: -814900856
+      SnowTileSet_77: -1867942011
+      SnowTileSet_78: -1414224543
+      SnowTileSet_79: -1257876826
+      SnowTileSet_8: 299490707
+      SnowTileSet_80: 1367756291
+      SnowTileSet_81: -947614793
+      SnowTileSet_82: -802408169
+      SnowTileSet_83: -1781686895
+      SnowTileSet_84: 889750584
+      SnowTileSet_85: 814878506
+      SnowTileSet_86: -260870435
+      SnowTileSet_87: 143426630
+      SnowTileSet_88: 1835643187
+      SnowTileSet_89: -1839162863
+      SnowTileSet_9: -62937858
+      SnowTileSet_90: -416309938
+      SnowTileSet_91: 1180861975
+      SnowTileSet_92: 1561136448
+      SnowTileSet_93: -1358685168
+      SnowTileSet_94: 1012189064
+      SnowTileSet_95: -162497375
+      SnowTileSet_96: -1053354348
+      SnowTileSet_97: 457943373
+      SnowTileSet_98: -1286369323
+      SnowTileSet_99: -730526377
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
