@@ -10,7 +10,7 @@ public class EnemyDamage : MonoBehaviour
     {
         if (other.CompareTag("Player") && Time.time >= nextDamageTime)
         {
-            other.GetComponent<PlayerHealth>()?.TakeDamage(damage);
+            other.GetComponent<HealthManager>()?.TakeDamage(damage);
             nextDamageTime = Time.time + damageCooldown;
         }
     }

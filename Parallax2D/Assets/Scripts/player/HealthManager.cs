@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 // Just a simple health manager to show how you can controll the HealthBar UI
 public class HealthManager : MonoBehaviour
@@ -23,10 +24,19 @@ public class HealthManager : MonoBehaviour
         }
     }
 
-    void TakeDamage(int damage)
+     public void TakeDamage(int damage)
     {
-        currentHealth -= damage;
+    currentHealth -= damage;
+    currentHealth = Mathf.Max(currentHealth, 0); // won't go below 0
+    healthBar.SetCurrentHealth(currentHealth);
 
-        healthBar.SetCurrentHealth(currentHealth);
+    if (currentHealth <= 0)
+        Die();
+   }
+
+    void Die()
+    {
+        Debug.Log("Player died!");
+        SceneManager.LoadScene("GameOver");
     }
 }
