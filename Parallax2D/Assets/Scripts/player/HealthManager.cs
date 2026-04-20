@@ -9,25 +9,25 @@ public class HealthManager : MonoBehaviour
     public HealthBar healthBar;
 
     private float timeSinceLastDamage = 0f;
-    private float regenDelay = 10f;    // seconds before regen starts
-    private float regenRate = 5f;      // HP per second
+    private float regenDelay = 10f;
+    private float regenRate = 5f;
     private float regenAccumulator = 0f;
 
     void Start()
     {
+        if (GameSettings.Instance != null)
+        {
+            maxHealth = GameSettings.Instance.playerMaxHealth;
+            Debug.Log("Player Max Health Loaded: " + maxHealth);
+        }
+
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
 
     void Update()
     {
-        // Damage player when we press the G key
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            TakeDamage(20);
-        }
 
-        // Regeneration logic
         if (currentHealth > 0 && currentHealth < maxHealth)
         {
             timeSinceLastDamage += Time.deltaTime;
@@ -53,7 +53,6 @@ public class HealthManager : MonoBehaviour
         currentHealth = Mathf.Max(currentHealth, 0);
         healthBar.SetCurrentHealth(currentHealth);
 
-        // Reset regen timer on damage
         timeSinceLastDamage = 0f;
         regenAccumulator = 0f;
 

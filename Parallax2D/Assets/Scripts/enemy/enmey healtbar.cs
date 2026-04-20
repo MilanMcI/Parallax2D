@@ -5,20 +5,26 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] private int maxHealth = 30;
     private int currentHealth;
 
-   void Start()
-{
-    currentHealth = maxHealth;
-    Debug.Log(gameObject.name + " spawned with HP: " + currentHealth);
-}
+    void Start()
+    {
+        if (GameSettings.Instance != null)
+        {
+            maxHealth = GameSettings.Instance.enemyMaxHealth;
+            Debug.Log(gameObject.name + " Enemy Health Loaded: " + maxHealth);
+        }
 
-public void TakeDamage(int damage)
-{
-    currentHealth -= damage;
-    Debug.Log(gameObject.name + " took " + damage + " damage! HP left: " + currentHealth);
+        currentHealth = maxHealth;
+        Debug.Log(gameObject.name + " spawned with HP: " + currentHealth);
+    }
 
-    if (currentHealth <= 0)
-        Die();
-}
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        Debug.Log(gameObject.name + " took " + damage + " damage! HP left: " + currentHealth);
+
+        if (currentHealth <= 0)
+            Die();
+    }
 
     void Die()
     {

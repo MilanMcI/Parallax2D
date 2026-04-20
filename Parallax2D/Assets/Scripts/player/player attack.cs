@@ -5,10 +5,19 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private float attackRange = 0.5f;
     [SerializeField] private int attackDamage = 10;
     [SerializeField] private float attackCooldown = 0.5f;
-    [SerializeField] private Transform attackPoint;   // empty GameObject in front of player
+    [SerializeField] private Transform attackPoint;
     [SerializeField] private LayerMask enemyLayers;
 
     private float nextAttackTime = 0f;
+
+    void Start()
+    {
+        if (GameSettings.Instance != null)
+        {
+            attackDamage = GameSettings.Instance.playerDamage;
+            Debug.Log("Player Damage Loaded: " + attackDamage);
+        }
+    }
 
     void Update()
     {
@@ -21,17 +30,14 @@ public class PlayerAttack : MonoBehaviour
 
     void Attack()
     {
-        // Detect enemies in range
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
-        // Deal damage to each enemy hit
         foreach (Collider2D enemy in hitEnemies)
         {
             enemy.GetComponent<EnemyHealth>()?.TakeDamage(attackDamage);
         }
     }
 
-    // Visualize attack range in editor
     void OnDrawGizmosSelected()
     {
         if (attackPoint == null) return;
