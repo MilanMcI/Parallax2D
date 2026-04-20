@@ -3,8 +3,16 @@ using UnityEngine;
 public class Snowball : MonoBehaviour
 {
     private int damage = 30;
-    private float speed = 15f;
+    private float speed = 10f;
     private Vector2 direction;
+    private Animation anim;
+
+    void Start()
+    {
+        anim = GetComponent<Animation>();
+        if (anim != null)
+            anim.Play("snowballan"); // make sure this matches your clip name exactly
+    }
 
     public void Init(Vector2 shootDirection)
     {

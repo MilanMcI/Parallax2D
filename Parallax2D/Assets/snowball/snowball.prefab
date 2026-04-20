@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8328762036118139911}
   - component: {fileID: 880029712760385213}
   - component: {fileID: 3076854558259385142}
-  - component: {fileID: -381994171175189405}
+  - component: {fileID: 3163310051887398586}
   m_Layer: 0
   m_Name: snowball
   m_TagString: Untagged
@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.46929, y: -1.11926, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -80,11 +80,11 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 228751003
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -92,7 +92,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
 --- !u!58 &880029712760385213
 CircleCollider2D:
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a7366bdce47e064dbae9b7b342d6720, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Snowball
---- !u!95 &-381994171175189405
+--- !u!95 &3163310051887398586
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -152,7 +152,7 @@ Animator:
   m_GameObject: {fileID: 5267146913312518621}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b18ab313523abd645aff16df0dfd031c, type: 2}
+  m_Controller: {fileID: 9100000, guid: ffa79e90b18a2bc4ca6643d6a7e2ccf8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
