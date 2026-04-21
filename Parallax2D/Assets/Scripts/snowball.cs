@@ -3,7 +3,7 @@ using UnityEngine;
 public class Snowball : MonoBehaviour
 {
     private int damage = 30;
-    private float speed = 10f;
+    private float speed = 30f;
     private Vector2 direction;
     private Animation anim;
 
