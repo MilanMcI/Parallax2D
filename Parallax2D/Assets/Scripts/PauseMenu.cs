@@ -24,6 +24,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     public void MainMenuButton()
     {
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("Main menu");
     }
 }

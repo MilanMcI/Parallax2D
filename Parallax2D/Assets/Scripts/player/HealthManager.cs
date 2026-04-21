@@ -99,7 +99,7 @@ public class HealthManager : MonoBehaviour
 
     public void MainMenuButton()
     {
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("Main menu");
         Time.timeScale = 1;
     }
 }
