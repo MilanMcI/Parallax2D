@@ -1223,7 +1223,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 429, y: -819}
+  m_AnchoredPosition: {x: 422.73, y: -819.32}
   m_SizeDelta: {x: 2033, y: 736.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &445411732
@@ -1813,13 +1813,14 @@ GameObject:
   - component: {fileID: 613334146}
   - component: {fileID: 613334145}
   - component: {fileID: 613334148}
+  - component: {fileID: 613334151}
   - component: {fileID: 613334147}
   - component: {fileID: 613334150}
-  - component: {fileID: 613334151}
   - component: {fileID: 613334152}
   - component: {fileID: 613334153}
   - component: {fileID: 613334154}
   - component: {fileID: 613334155}
+  - component: {fileID: 613334156}
   m_Layer: 0
   m_Name: Penguin
   m_TagString: Player
@@ -2008,6 +2009,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   Data: {fileID: 11400000, guid: e656b564a4d28ed47bcd3ab5015f7cc5, type: 2}
   animator: {fileID: 613334152}
+  audioSource: {fileID: 613334156}
+  jumpSound: {fileID: 8300000, guid: 72ab8fc014c0fe548916e6aa15d737b9, type: 3}
   _groundCheckPoint: {fileID: 1591210751}
   _groundCheckSize: {x: 0.5, y: 0.1}
   _frontWallCheckPoint: {fileID: 611239842}
@@ -2111,6 +2114,103 @@ MonoBehaviour:
   spellCooldown: 10
   playerMovement: {fileID: 613334151}
   cooldownUI: {fileID: 1957845020}
+--- !u!82 &613334156
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613334144}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
