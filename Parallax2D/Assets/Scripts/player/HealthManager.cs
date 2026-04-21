@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -5,9 +6,10 @@ public class HealthManager : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth;
-
+    private SpriteRenderer SpriteRenderer;
     public HealthBar healthBar;
-
+    private Rigidbody2D rb;
+    public GameObject DeathScreen;
     private float timeSinceLastDamage = 0f;
     private float regenDelay = 10f;
     private float regenRate = 5f;
@@ -15,6 +17,9 @@ public class HealthManager : MonoBehaviour
 
     void Start()
     {
+        SpriteRenderer = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
+
         if (GameSettings.Instance != null)
         {
             maxHealth = GameSettings.Instance.playerMaxHealth;
@@ -52,6 +57,7 @@ public class HealthManager : MonoBehaviour
         currentHealth -= damage;
         currentHealth = Mathf.Max(currentHealth, 0);
         healthBar.SetCurrentHealth(currentHealth);
+        StartCoroutine(BlinkRed());
 
         timeSinceLastDamage = 0f;
         regenAccumulator = 0f;
@@ -60,9 +66,40 @@ public class HealthManager : MonoBehaviour
             Die();
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Damage"))
+        {
+            TakeDamage(25);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 15);
+            StartCoroutine(BlinkRed());
+        }
+
+    }
+
+
     void Die()
     {
-        Debug.Log("Player died!");
-        SceneManager.LoadScene("GameOver");
+        DeathScreen.SetActive(true);
+        Time.timeScale = 0;
+    }
+
+    private IEnumerator BlinkRed()
+    {
+        SpriteRenderer.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        SpriteRenderer.color = Color.white;
+    }
+
+    public void RestartButton()
+    {
+        SceneManager.LoadScene("Level1");
+        Time.timeScale = 1;
+    }
+
+    public void MainMenuButton()
+    {
+        SceneManager.LoadScene("Main Menu");
+        Time.timeScale = 1;
     }
 }
