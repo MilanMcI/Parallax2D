@@ -4522,7 +4522,7 @@ GameObject:
   - component: {fileID: 1325727141}
   m_Layer: 3
   m_Name: Damage
-  m_TagString: Ground
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8361,7 +8361,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 15
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8401,7 +8401,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 10
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8706,10 +8706,10 @@ Tilemap:
   m_TileSpriteArray:
   - m_RefCount: 17
     m_Data: {fileID: -1155617884, guid: d428585dca004aa4ea5c7f2f419fbabf, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1267228812, guid: d428585dca004aa4ea5c7f2f419fbabf, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1448885142, guid: d428585dca004aa4ea5c7f2f419fbabf, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 11
     m_Data: {fileID: -1609559788, guid: d428585dca004aa4ea5c7f2f419fbabf, type: 3}
   - m_RefCount: 5
@@ -8724,8 +8724,8 @@ Tilemap:
     m_Data: {fileID: 5012826586004858864, guid: d428585dca004aa4ea5c7f2f419fbabf, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: -272007544, guid: d428585dca004aa4ea5c7f2f419fbabf, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -1267228812, guid: d428585dca004aa4ea5c7f2f419fbabf, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: -1857935915, guid: d428585dca004aa4ea5c7f2f419fbabf, type: 3}
   - m_RefCount: 39
@@ -8734,8 +8734,8 @@ Tilemap:
     m_Data: {fileID: 1466491794653435217, guid: d428585dca004aa4ea5c7f2f419fbabf, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: 1807964072, guid: d428585dca004aa4ea5c7f2f419fbabf, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 1448885142, guid: d428585dca004aa4ea5c7f2f419fbabf, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 2058273657, guid: d428585dca004aa4ea5c7f2f419fbabf, type: 3}
   - m_RefCount: 9
