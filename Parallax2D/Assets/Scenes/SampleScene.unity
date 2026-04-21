@@ -1701,7 +1701,8 @@ MonoBehaviour:
   snowballPrefab: {fileID: 5267146913312518621, guid: e42f14a718207ae45b93e50ff1743f69, type: 3}
   castPoint: {fileID: 127083710}
   spellCooldown: 0.5
-  spriteRenderer: {fileID: 613334145}
+  playerMovement: {fileID: 0}
+  cooldownUI: {fileID: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
