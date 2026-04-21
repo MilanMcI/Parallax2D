@@ -5,15 +5,10 @@ public class SpellCast : MonoBehaviour
     [SerializeField] private GameObject snowballPrefab;
     [SerializeField] private Transform castPoint;
     [SerializeField] private float spellCooldown = 0.5f;
-    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private PlayerMovement playerMovement;
+    [SerializeField] private SpellCooldownUI cooldownUI; // add this
 
     private float nextSpellTime = 0f;
-    private Camera mainCamera;
-
-    void Start()
-    {
-        mainCamera = Camera.main;
-    }
 
     void Update()
     {
@@ -23,13 +18,14 @@ public class SpellCast : MonoBehaviour
             nextSpellTime = Time.time + spellCooldown;
         }
     }
-  void CastSnowball()
- {
-    // Use the direction the sprite is facing
-    Vector2 direction = spriteRenderer.flipX ? Vector2.left : Vector2.right;
 
-    GameObject snowball = Instantiate(snowballPrefab, castPoint.position, Quaternion.identity);
-    snowball.GetComponent<Snowball>().Init(direction);
- }
-    
+    void CastSnowball()
+    {
+        Vector2 direction = playerMovement.IsFacingRight ? Vector2.right : Vector2.left;
+
+        GameObject snowball = Instantiate(snowballPrefab, castPoint.position, Quaternion.identity);
+        snowball.GetComponent<Snowball>().Init(direction);
+
+        cooldownUI.TriggerCooldown(); // trigger the UI cooldown
+    }
 }
