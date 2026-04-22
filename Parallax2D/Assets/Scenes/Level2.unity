@@ -1995,6 +1995,8 @@ MonoBehaviour:
   currentHealth: 0
   healthBar: {fileID: 445411732}
   DeathScreen: {fileID: 994350922}
+  audioSource: {fileID: 613334156}
+  hurtSound: {fileID: 8300000, guid: 99a8f188881c4614b9a8844c02daf83c, type: 3}
 --- !u!114 &613334151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2010,7 +2012,7 @@ MonoBehaviour:
   Data: {fileID: 11400000, guid: e656b564a4d28ed47bcd3ab5015f7cc5, type: 2}
   animator: {fileID: 613334152}
   audioSource: {fileID: 613334156}
-  jumpSound: {fileID: 8300000, guid: 72ab8fc014c0fe548916e6aa15d737b9, type: 3}
+  jumpSound: {fileID: 8300000, guid: 5d60c6234ed6f6b40bdda1189a1c9208, type: 3}
   _groundCheckPoint: {fileID: 1591210751}
   _groundCheckSize: {x: 0.5, y: 0.1}
   _frontWallCheckPoint: {fileID: 611239842}
@@ -2097,6 +2099,8 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 64
+  audioSource: {fileID: 613334156}
+  slashSound: {fileID: 8300000, guid: 5411e465b9ef3a14eb99c89870e419d9, type: 3}
 --- !u!114 &613334155
 MonoBehaviour:
   m_ObjectHideFlags: 0
