@@ -15,6 +15,9 @@ public class HealthManager : MonoBehaviour
     private float regenRate = 5f;
     private float regenAccumulator = 0f;
 
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip hurtSound;
+
     void Start()
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
@@ -32,7 +35,6 @@ public class HealthManager : MonoBehaviour
 
     void Update()
     {
-
         if (currentHealth > 0 && currentHealth < maxHealth)
         {
             timeSinceLastDamage += Time.deltaTime;
@@ -59,6 +61,9 @@ public class HealthManager : MonoBehaviour
         healthBar.SetCurrentHealth(currentHealth);
         StartCoroutine(BlinkRed());
 
+        if (audioSource != null && hurtSound != null)
+            audioSource.PlayOneShot(hurtSound);
+
         timeSinceLastDamage = 0f;
         regenAccumulator = 0f;
 
@@ -74,9 +79,7 @@ public class HealthManager : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 15);
             StartCoroutine(BlinkRed());
         }
-
     }
-
 
     void Die()
     {
@@ -99,7 +102,7 @@ public class HealthManager : MonoBehaviour
 
     public void MainMenuButton()
     {
-        SceneManager.LoadScene("Main menu");
+        SceneManager.LoadScene("mainmenu");
         Time.timeScale = 1;
     }
 }

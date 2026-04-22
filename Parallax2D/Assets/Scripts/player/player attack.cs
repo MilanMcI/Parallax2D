@@ -7,6 +7,8 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private float attackCooldown = 0.5f;
     [SerializeField] private Transform attackPoint;
     [SerializeField] private LayerMask enemyLayers;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip slashSound;
 
     private float nextAttackTime = 0f;
 
@@ -30,6 +32,9 @@ public class PlayerAttack : MonoBehaviour
 
     void Attack()
     {
+        if (audioSource != null && slashSound != null)
+            audioSource.PlayOneShot(slashSound);
+
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
         foreach (Collider2D enemy in hitEnemies)
