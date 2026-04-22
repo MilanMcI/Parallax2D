@@ -59,6 +59,7 @@ public class HealthManager : MonoBehaviour
         currentHealth -= damage;
         currentHealth = Mathf.Max(currentHealth, 0);
         healthBar.SetCurrentHealth(currentHealth);
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, 15);
         StartCoroutine(BlinkRed());
 
         if (audioSource != null && hurtSound != null)
@@ -102,7 +103,7 @@ public class HealthManager : MonoBehaviour
 
     public void MainMenuButton()
     {
-        SceneManager.LoadScene("mainmenu");
+        SceneManager.LoadScene("Main Menu");
         Time.timeScale = 1;
     }
 }
