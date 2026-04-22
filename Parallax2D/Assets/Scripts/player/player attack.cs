@@ -23,7 +23,7 @@ public class PlayerAttack : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W) && Time.time >= nextAttackTime)
+        if (Input.GetKeyDown(KeyCode.E) && Time.time >= nextAttackTime)
         {
             Attack();
             nextAttackTime = Time.time + attackCooldown;
@@ -31,17 +31,21 @@ public class PlayerAttack : MonoBehaviour
     }
 
     void Attack()
+{
+    Debug.Log("Attack called!");
+    
+    if (audioSource != null && slashSound != null)
+        audioSource.PlayOneShot(slashSound);
+
+    Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+    
+    Debug.Log("Enemies hit: " + hitEnemies.Length);
+
+    foreach (Collider2D enemy in hitEnemies)
     {
-        if (audioSource != null && slashSound != null)
-            audioSource.PlayOneShot(slashSound);
-
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-
-        foreach (Collider2D enemy in hitEnemies)
-        {
-            enemy.GetComponent<EnemyHealth>()?.TakeDamage(attackDamage);
-        }
+        enemy.GetComponent<EnemyHealth>()?.TakeDamage(attackDamage);
     }
+}
 
     void OnDrawGizmosSelected()
     {
