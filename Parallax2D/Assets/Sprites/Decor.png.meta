@@ -386,28 +386,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Decor_0
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 416
-        width: 32
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fab9e63dce3283f80800000000000000
-      internalID: -8126706027523564625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Decor_2
       rect:
         serializedVersion: 2
@@ -521,10 +499,10 @@ TextureImporter:
       name: Decor_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 449
-        width: 96
-        height: 39
+        x: 97
+        y: 448
+        width: 94
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,7 +590,7 @@ TextureImporter:
         x: 192
         y: 320
         width: 30
-        height: 9
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,7 +612,7 @@ TextureImporter:
         x: 232
         y: 320
         width: 48
-        height: 15
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,7 +634,7 @@ TextureImporter:
         x: 192
         y: 288
         width: 32
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
