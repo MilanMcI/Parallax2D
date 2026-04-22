@@ -41,7 +41,7 @@ public class Blue_Slime_Movement : MonoBehaviour
         {
             if (Vector2.Distance(transform.position, playerTransform.position) < chaseDistance)
             {
-                isChaAing = true;
+                isChasing = true;
             }
             else
             {
